@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ,body {
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    max-width: 1199px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    /* position: fixed;
+    z-index: 99; */
+    background-color: white;
+}
+header.main-header {
+    background-color: var(--bg-color);
+    padding: 0px;
+    transition: all 0.4s ease 0s;
+    height: 90px;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-brand {
+    color: #3a9a48;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+
+
+.navbar-collapse button {
+    border-radius: 50%;
+    border: none;
+    color:#3a9a48
+}
+
+.navbar-collapse button:hover {
+    background-color: #3a9a48;
+    color: white;
+}
+
+#navbarSupportedContent li:first-of-type {
+    color: #3a9a48;
+}
+
+#navbarSupportedContent li {
+    color: black;
+}
+
+#navbarSupportedContent li:hover {
+    color: #3a9a48;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding: 14px 0;
+    font-size: 1.2em;
+    font-weight: 400;
+    position: relative;
+    color: var(--heading-color);
+}
+
+.navbar-collapse {
+    margin-left: 350px;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0 12px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a.search-search {
+    background: var(--bg-light);
+    font-size: 16px;
+    line-height: 25px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    padding: 0;
+    text-align: center;
+    color: var(--primary-color);
+    display: inline-block;
+    border: none;
+}
+
+/* CAROUSEL */
+.carousel {
+    margin-top: 100px;
+    
+}
+.carousel h5 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.carousel p {
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+}
+.btn-white {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    background-color: #fff;
+    color:#3a9a48;
+}
+
+.border-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 35px;
+}
+
+.btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+}
+
+.border-btn:hover {
+    color: #3a9a48;
+    background: #fff;
+}

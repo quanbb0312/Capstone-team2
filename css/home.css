@@ -114,6 +114,9 @@ li a.search-search {
 /* CAROUSEL */
 .carousel {
     margin-top: 100px;
+}
+
+.carousel-item {
     
 }
 .carousel h5 {
@@ -130,6 +133,18 @@ li a.search-search {
     text-transform: capitalize;
     line-height: 30px;
     opacity: 0.9;
+}
+
+.w3l-main-slider .banner-view:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: .6;
 }
 .btn-white {
     padding: 12px 35px;

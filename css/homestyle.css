@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/* .nav{
+    margin: auto;
+    width: 80%;
+} */
+nav{
+    padding: 0;
+    height: 90px;
+    align-items: center;
+}
+/* .col{
+    align-items: center;
+} */
+#iconSearch{
+    margin-top: 50%;
+    font-size: 16px;
+}
+.btn-outline-success{
+    border-color: white;
+    background-color: rgb(250,247,254);
+}
+.search a i{
+    color: green;
+}
+.search a:hover{
+    color: white;
+    background-color: green;
+}
+.container a h1{
+    color: rgb(24,154,70);
+}
+.container a{
+    text-decoration: none;
+}
+
+/* trước hover thì width sẽ là 0% */
+ .nav-link::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #35a22c;
+    display: block;
+    transition: all .5s;
+}
+/* sau hover là 100% */
+.nav-link:hover::after{
+    width: 100%;
+}
+.nav-link{
+    color:black;
+    transition: all 0.5;
+}
+.nav-link:hover{
+    color: #35a22c;
+}
